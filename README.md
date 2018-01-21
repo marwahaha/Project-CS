@@ -1,7 +1,9 @@
 # Project-CS
 Website aimed to help with python code, sample questions and answers
 
-=====================================================================
+===================================================================
+
+
 This project will be about - collectively creating a website (using all the new and old stuff from Derek's module)
 
                             -Cool desing , HTML, CSS, JavaScript, Python
