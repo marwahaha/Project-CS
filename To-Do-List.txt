@@ -1,6 +1,14 @@
-<<<<<<< HEAD
-Test push
+To do list
 =======
 1. Create HTML structure
+      - structure of the whole website
+      - sub-pages - general layout
+      -Don't kick the guide dog in the face 
+      
 2.Come up with a layout
->>>>>>> eb213f61192be2c81159f2de907a59412384e055
+      - choose a layout, preferably simple but still CSS and Js creative
+      
+3.Write the CSS
+    -tedious work but lets make it RESPONSIVE
+  
+4.Write the JS - can be left out for now
