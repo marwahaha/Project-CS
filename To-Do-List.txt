@@ -1,2 +1,6 @@
-
+<<<<<<< HEAD
+Test push
+=======
+1. Create HTML structure
 2.Come up with a layout
+>>>>>>> eb213f61192be2c81159f2de907a59412384e055
