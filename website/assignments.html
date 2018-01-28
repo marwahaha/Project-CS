@@ -20,6 +20,39 @@
      <h1 > Past Assignments Section </h1>
      <p>Here you will find solutions to past assignments for our computer science course</p>
      </div>
+     <main>
+       
+        <h1><a href="https://cs4.ucc.ie/moodle/pluginfile.php/12237/mod_resource/content/2/Assignment%208%20DUE%20220118.pdf"> Assignment 8</a></h1>
+        
+<section class= "overflow">
+
+<h1>Question 2</h1>
+    <div  style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc0">
+    </span><span class="sc5">def</span><span class="sc0"> </span><span class="sc9">lottery_winners</span><span class="sc10">(</span><span class="sc11">players</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc11">x</span><span class="sc10">):</span><span class="sc0">
+        </span><span class="sc1">#calls variables, counters and a variable for storing the name/s of the winner</span><span class="sc0">
+        </span><span class="sc11">pool</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc2">0</span><span class="sc0">
+        </span><span class="sc11">numOfWinners</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc2">0</span><span class="sc0">
+        </span><span class="sc11">winners</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc3">""</span><span class="sc0">
+        </span><span class="sc5">for</span><span class="sc0"> </span><span class="sc11">player</span><span class="sc0"> </span><span class="sc5">in</span><span class="sc0"> </span><span class="sc11">players</span><span class="sc10">:</span><span class="sc0">  </span><span class="sc1">#loop that iterates through the nested list, control the amount of loops made</span><span class="sc0">
+            </span><span class="sc11">pool</span><span class="sc0"> </span><span class="sc10">+=</span><span class="sc0"> </span><span class="sc2">1</span><span class="sc0">  </span><span class="sc1">#counter that stores the amount of players, for calculations at the end</span><span class="sc0">
+            </span><span class="sc11">numbers</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc11">player</span><span class="sc10">[</span><span class="sc2">1</span><span class="sc10">]</span><span class="sc0">  </span><span class="sc1"># isolates the numbers chosen by each player and stores it in numbers</span><span class="sc0">
+            </span><span class="sc5">if</span><span class="sc0"> </span><span class="sc11">x</span><span class="sc0"> </span><span class="sc5">in</span><span class="sc0"> </span><span class="sc11">numbers</span><span class="sc10">:</span><span class="sc0">   </span><span class="sc1">#checks if the random number x is present in the list of numbers chosen by that particular player</span><span class="sc0">
+               </span><span class="sc11">numOfWinners</span><span class="sc0"> </span><span class="sc10">+=</span><span class="sc0"> </span><span class="sc2">1</span><span class="sc0">   </span><span class="sc1"># adds the number of winners for calculations at the end</span><span class="sc0">
+               </span><span class="sc5">print</span><span class="sc10">(</span><span class="sc3">"The winner of the lottery is : "</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc11">player</span><span class="sc10">[</span><span class="sc2">0</span><span class="sc10">])</span><span class="sc0">  </span><span class="sc1">#prints the name of the winner everytime there is a match</span><span class="sc0">
+    
+        </span><span class="sc11">sum</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc10">(</span><span class="sc11">pool</span><span class="sc10">*</span><span class="sc2">5</span><span class="sc10">)/</span><span class="sc11">numOfWinners</span><span class="sc0">    </span><span class="sc1">#calculates the winning sum for each player</span><span class="sc0">
+        </span><span class="sc5">print</span><span class="sc10">(</span><span class="sc3">"Each player wins: %.2f"</span><span class="sc0"> </span><span class="sc10">%</span><span class="sc0"> </span><span class="sc11">sum</span><span class="sc10">)</span><span class="sc0"> </span><span class="sc1">#prints the result , correct to 2 decimal places</span><span class="sc0">
+    </span><span class="sc1"># nested list of players with a list of numbers</span><span class="sc0">
+    </span><span class="sc11">playerlist</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc10">[[</span><span class="sc3">"John"</span><span class="sc10">,[</span><span class="sc2">23</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">21</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">20</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">34</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">15</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">23</span><span class="sc10">]],</span><span class="sc0"> </span><span class="sc10">[</span><span class="sc3">"Jim"</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc10">[</span><span class="sc2">17</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">16</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">3</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">7</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">26</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc2">42</span><span class="sc10">]],[</span><span class="sc3">"Jack"</span><span class="sc10">,[</span><span class="sc2">12</span><span class="sc10">,</span><span class="sc2">54</span><span class="sc10">,</span><span class="sc2">23</span><span class="sc10">,</span><span class="sc2">67</span><span class="sc10">,</span><span class="sc2">43</span><span class="sc10">,</span><span class="sc2">19</span><span class="sc10">]]]</span><span class="sc0">
+    </span><span class="sc11">x</span><span class="sc0"> </span><span class="sc10">=</span><span class="sc0"> </span><span class="sc2">23</span><span class="sc0"> </span><span class="sc1">#random number for the lottery</span><span class="sc0">
+    
+    </span><span class="sc11">lottery_winners</span><span class="sc10">(</span><span class="sc11">playerlist</span><span class="sc10">,</span><span class="sc0"> </span><span class="sc11">x</span><span class="sc10">)</span><span class="sc0">   </span><span class="sc1">#calls the function and passes in the dictionary and the 'random' number</span></div>
+    
+</section>
+
+
+      
+     </main>
   </body>
 </html>
       
