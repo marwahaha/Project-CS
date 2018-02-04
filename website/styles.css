@@ -110,3 +110,27 @@ nav a:active{
     background:rgb(55, 55, 211);
 
 }
+
+
+
+
+/* aside bar */
+.asideBar {
+  height: 0;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+  position: fixed;
+  transition: 0.7s;
+  background-image: url("images/image1.jpg");
+}
+
+
+.asideBar .exitButton {
+  font-size:2em;
+  cursor:pointer;
+  text-decoration: none;
+  color:white;
+}
+
+
