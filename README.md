@@ -1,4 +1,4 @@
-PLAN DIDN'T WORK OUT, ABANDONNED 
+PLAN DIDN'T WORK OUT, ABANDONED 
 
 # Project-CS
 Website aimed to help with python code and provide people with sample questions and answers
